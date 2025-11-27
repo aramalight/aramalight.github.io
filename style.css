@@ -1,0 +1,45 @@
+body {
+    background: url("./images/background.png");
+    background-size: cover;
+
+    margin: 0;
+    text-align: center;
+
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+a {
+    color: #B3DEE2;
+
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:hover {
+    color: #EAF2D7;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.card {
+    margin: 20px;
+    padding: 1px;
+
+    width: 400px;
+
+    background-color: #EA9AB2;
+    color: #B3DEE2;
+
+    border-radius: 20px;
+
+    box-shadow: 0 0 40px black;
+    text-shadow: 0 0 10px black;
+}
